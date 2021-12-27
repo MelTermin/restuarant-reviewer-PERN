@@ -52,17 +52,17 @@ margin:10px 0px;
 
 @media screen and (max-width: 414px)   {
   .add-restuarant-container form input {
-    width: 60%;
+    width: 80%;
     margin:10px 0px;
     }
     
     .add-restuarant-container select {
-      width: 60%;
+      width: 80%;
       margin:10px 0px;
     }
 
     .btn-add {
-      width: 60%;
+      width: 80%;
      
     }
 }
