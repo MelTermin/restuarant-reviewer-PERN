@@ -28,7 +28,7 @@ function UpdateRestuarants(props) {
  
   const handleSubmit= async (e) =>{
     e.preventDefault();
-    const response= await axios.put(`hhttps://restuarantreviewer.herokuapp.com/api/v1/restaurants/${id}`,{
+    const response= await axios.put(`https://restuarantreviewer.herokuapp.com/api/v1/restaurants/${id}`,{
       name,
       location,
       price_range: priceRange,
