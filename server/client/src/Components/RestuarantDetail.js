@@ -16,7 +16,7 @@ function RestuarantDetail() {
   useEffect(()=> {
     const fetchData = async () => {
       try {
-        const response = await axios.get(`http://localhost:3004/api/v1/restaurants/${id}`);
+        const response = await axios.get(`https://restuarantreviewer.herokuapp.com/api/v1/restaurants/${id}`);
         console.log(response);
 
         setSelectedRestaurant(response.data.data);

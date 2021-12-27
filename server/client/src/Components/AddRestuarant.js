@@ -15,7 +15,7 @@ function AddRestuarant() {
   const handleSubmit= async(e) => {
     e.preventDefault();
     try{
-      const response= await axios.post("http://localhost:3004/api/v1/restaurants",{
+      const response= await axios.post("https://restuarantreviewer.herokuapp.com/api/v1/restaurants",{
         name,
         location,
         price_range: priceRange,

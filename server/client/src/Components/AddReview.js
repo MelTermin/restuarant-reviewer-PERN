@@ -22,7 +22,7 @@ function AddReview() {
   const handleSubmit= async(e) => {
     e.preventDefault();
     try{
-      const response= await axios.post(`http://localhost:3004/api/v1/restaurants/${id}/addReview`,{
+      const response= await axios.post(`https://restuarantreviewer.herokuapp.com/api/v1/restaurants/${id}/addReview`,{
         name,
         review:reviewText,
         rating,

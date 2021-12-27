@@ -17,7 +17,7 @@ function RestuarantList(props) {
   },[])
 
   const getRestaurants= async () => {
-    const response= await axios.get("http://localhost:3004/api/v1/restaurants")
+    const response= await axios.get("https://restuarantreviewer.herokuapp.com/api/v1/restaurants")
     console.log(response.data.data)
     setRestaurants(response.data.data.restuarants)
   }
@@ -25,7 +25,7 @@ function RestuarantList(props) {
   const handleDelete= async(e,id) => {
     e.stopPropagation();
     try{
-      const response= await axios.delete(`http://localhost:3004/api/v1/restaurants/${id}`)
+      const response= await axios.delete(`https://restuarantreviewer.herokuapp.com/api/v1/restaurants/${id}`)
       
       setRestaurants(
         restaurants.filter((restaurant) => {
