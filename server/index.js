@@ -3,6 +3,7 @@ const app=express();
 const cors=require("cors");
 const env=require('dotenv')
 const db= require("./db")
+const path=require("path")
 env.config();
 
 app.use(cors());
@@ -126,6 +127,12 @@ app.post("/api/v1/restaurants/:id/addReview", async (req, res) => {
   }
 
 })
+
+app.use(express.static(path.join(__dirname, "/client/build")));
+
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, '/client/build', 'index.html'));
+});
 
 app.listen(process.env.PORT,()=> {
   console.log(`the server is running on port` + process.env.PORT)
