@@ -72,3 +72,19 @@
     padding-left: 200px;
   }
 }
+
+
+@media screen and (max-width: 375px)  {
+  .title-review {
+    padding-left: 10px;
+  }
+
+  .review-form-container form {
+
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 20px;
+    padding-left: 50px;
+  }
+}

@@ -50,3 +50,11 @@
 .btn-view {
   background-color:#9ed9db ;
 }
+
+@media screen and (max-width: 375px)  {
+  .styled-table {
+ 
+    max-width: 300px;
+   
+  }
+}

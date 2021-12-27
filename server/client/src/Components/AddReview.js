@@ -44,7 +44,7 @@ function AddReview() {
   return (
     <div className="review-form-container">
       <form onSubmit={handleSubmit} >
-        <h2 className="title-review" style={{paddingLeft:"200px"}}>ADD A REVIEW</h2>
+        <h2 className="title-review" >ADD A REVIEW</h2>
       
         <label>Name:</label>
         <input type="text" placeholder="Please type a name" value={name}

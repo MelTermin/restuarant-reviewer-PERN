@@ -27,3 +27,13 @@
   
 }
 
+@media screen and (max-width: 375px)  {
+  .review-container {
+  
+    width: 40%;
+    height: 150px;
+    margin-top:40px;
+  
+   
+  }
+}

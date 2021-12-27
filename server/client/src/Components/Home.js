@@ -7,7 +7,7 @@ function Home() {
 
   return (
     <div className="home-container">
-      <h1 style={{textAlign:"center",marginBottom:"50px"}}>Restuarant Reviewer</h1>
+      <h1 className="home-title" >Restuarant Reviewer</h1>
       <AddRestuarant/>
       <br/>
       <RestuarantList/>

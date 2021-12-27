@@ -31,3 +31,21 @@ margin:10px 0px;
   border-radius: 5px;
   
 }
+
+@media screen and (max-width: 375px)  {
+  .home-title {
+
+    margin-left: 15px;
+  
+  }
+
+  .add-restuarant-container form input {
+    width: 80%;
+    margin:10px 0px;
+    }
+    
+    .add-restuarant-container select {
+      width: 80%;
+      margin:10px 0px;
+    }
+}
