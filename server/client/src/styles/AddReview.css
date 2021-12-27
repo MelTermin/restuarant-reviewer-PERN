@@ -54,6 +54,21 @@
 
 @media screen and (max-width: 1024px)  {
   .title-review {
-    padding-left: 50px;
+    padding-left: 30px;
+  }
+}
+
+@media screen and (max-width: 768px)  {
+  .title-review {
+    padding-left: 30px;
+  }
+
+  .review-form-container form {
+
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 20px;
+    padding-left: 200px;
   }
 }
