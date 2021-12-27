@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  justify-content: space-around;
+ 
+}
+
+.review-container {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 30%;
+  height: 150px;
+  margin-top:40px;
+  border-radius: 5px;
+  background-color: #333a55;
+  color: white;
+ 
+}
+
+.review-first-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid #134f5c;
+  margin-top:10px;
+  
+}

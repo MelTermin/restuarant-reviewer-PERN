@@ -1,0 +1,33 @@
+.add-restuarant-container {
+/* border: 2px solid green; */
+  display:flex;
+  flex-direction: column;
+}
+
+.add-restuarant-container form {
+  display:flex;
+  flex-direction: column;
+  
+}
+
+.add-restuarant-container form input {
+ 
+margin:10px 0px;
+}
+
+.add-restuarant-container select {
+  margin:10px 0px;
+}
+
+.btn-add {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  background-color: #2ecc71;
+  color: #fff;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  
+}
