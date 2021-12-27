@@ -100,10 +100,8 @@
     flex-direction: column;
     justify-content: space-around;
     margin: 20px;
-    padding-left: 80px;
+    padding-left: 50px;
   }
 
-  .review-form-container label {
-    text-align: center;
-  }
+
 }
