@@ -96,3 +96,13 @@ h1 {
   
   }
 }
+
+@media screen and (max-width: 414px)  {
+  .update-container {
+
+    margin: 100px 5px; 
+    width: 395px;
+    height: 500px;
+  
+  }
+}
