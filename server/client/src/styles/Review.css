@@ -30,9 +30,9 @@
 @media screen and (max-width: 375px)  {
   .review-container {
   
-    width: 40%;
+    width: 30%;
     height: 150px;
-    margin-top:40px;
+    margin:40px 20px;
   
    
   }
@@ -41,7 +41,7 @@
 @media screen and (max-width: 414px)  {
   .review-container {
   
-    width: 50%;
+    width: 30%;
     height: 150px;
     margin-top:40px;
   
