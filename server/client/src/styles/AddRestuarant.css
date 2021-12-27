@@ -51,18 +51,24 @@ margin:10px 0px;
 }
 
 @media screen and (max-width: 414px)   {
+  .add-restuarant-container form {
+    display:flex;
+    flex-direction: column;
+    padding-left: 30px;
+    
+  }
   .add-restuarant-container form input {
-    width: 80%;
-    margin:10px 20px;
+    width: 60%;
+    margin:10px 0px;
     }
     
     .add-restuarant-container select {
-      width: 80%;
-      margin:10px 20px;
+      width: 60%;
+      margin:10px 0px;
     }
 
     .btn-add {
-      width: 80%;
+      width: 60%;
      
     }
 }
