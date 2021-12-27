@@ -37,3 +37,14 @@
    
   }
 }
+
+@media screen and (max-width: 414px)  {
+  .review-container {
+  
+    width: 50%;
+    height: 150px;
+    margin-top:40px;
+  
+   
+  }
+}
